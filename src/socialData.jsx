@@ -1,3 +1,1 @@
-export default [
-"./instagram.svg", "./instagram.svg", "./instagram.svg"
-]
+export default ["./instagram.svg", "./instagram.svg", "./instagram.svg"];
