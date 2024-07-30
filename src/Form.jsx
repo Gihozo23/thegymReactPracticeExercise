@@ -8,15 +8,15 @@ function Form(props) {
           <p className='text-gray-200 pb-8 pt-7'>
              {props.formStructure.description} 
           </p>
-          <div className='grid grid-cols-2'>
+          <div className='grid grid-cols-2 gap-3'>
                   <div className=''>
-                      <input className='h-8 w-5/6' type="text" placeholder={props.formStructure.fields[0]} />
+                      <input className='h-8 w-96 pl-3' type="text" placeholder={props.formStructure.fields[0]} />
                   </div>
                   <div>
-                      <input className='h-8 w-5/6' type="text"placeholder={props.formStructure.fields[1]} /> <br />
+                      <input className='h-8 w-96 pl-3' type="text"placeholder={props.formStructure.fields[1]} /> <br />
               </div>
           </div>
-          
+          <textarea className='mt-3 h-28 w-full pl-3 pt-3' name="" id="" placeholder={props.formStructure.fields[2]}></textarea>
         
     </div>
   )
