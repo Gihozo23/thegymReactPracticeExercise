@@ -10,7 +10,7 @@ function ContactParent() {
         el={el} />)
     
       return (
-          <div className=' pt-32'>
+          <div className=' pt-32 ml-20 bg-red-400'>
               <h1 className='text-xl text-white mb-6'>{title}</h1>
           {contact}
         </div>
