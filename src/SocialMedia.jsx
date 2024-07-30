@@ -2,13 +2,8 @@ import React from 'react'
 
 function SocialMedia(props) {
   return (
-    <div className='pt-16 border-1'>
-        <div>
-        <img className='h-7 text-white' src={props.socialMedia[0]} alt="" />
-        <div className='border-2 border-white rounded-full w-12 h-12 flex justify-center items-center'>
-        <img src={props.img} alt="" className='w-4'/>
-    </div>
-        </div>
+    <div className='border-2 border-white rounded-full w-12 h-12 flex justify-center items-center hover:text-[#6372ff] hover:bg-white'>
+        <img src={props.image} alt="" className='w-5'/>
     </div>
   )
 }

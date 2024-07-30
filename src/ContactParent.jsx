@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact from './Contact';
-import data from './data';
+import data from './contactData';
 
 
 function ContactParent() {

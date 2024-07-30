@@ -3,7 +3,7 @@ import React from 'react'
 function Form(props) {
 
   return (
-      <div className='col-span-2 pt-16  pl-10'>
+      <div className='col-span-2 pt-16 ml-10'>
           <h1
               className='text-white text-3xl font-bold'>
               {props.formStructure.title}
@@ -27,7 +27,7 @@ function Form(props) {
                  </div>
           </div>
           <textarea
-              className='mt-3 h-28 w-full pl-3 pt-3 mb-8'
+              className='mt-3 h-28 w-full pl-3 pt-3'
               name="Message"
               id="Message"
               placeholder={props.formStructure.fields[2]}>
